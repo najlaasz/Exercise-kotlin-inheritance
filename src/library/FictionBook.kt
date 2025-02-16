@@ -12,7 +12,8 @@ class FictionBook (title:String , author:String, ISBN :Int):Book(title , author 
         return "${super.displayInfo()} , genre: $genre  "
     }
 
-    fun FBook():String
+
+    fun fBook():String
     {
         return "$title used for kids "
     }

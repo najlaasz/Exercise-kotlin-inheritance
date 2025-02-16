@@ -8,7 +8,7 @@ class NonFictionBook(title:String , author:String, ISBN :Int ,var subject:String
         return "${super.displayInfo()} , subject: $subject"
     }
 
-    fun NonFBook():String
+    fun nonFBook():String
     {
         return "$title very popular "
     }

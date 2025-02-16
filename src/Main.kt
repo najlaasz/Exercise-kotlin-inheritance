@@ -8,9 +8,9 @@ fun main() {
 
     println("----for Fiction Book ---")
     println(fBook.displayInfo())
-    println(fBook.FBook())
+    println(fBook.fBook())
 
     println("----for Non Fiction Book ---")
     println(nfBook.displayInfo())
-    println(nfBook.NonFBook())
+    println(nfBook.nonFBook())
 }
